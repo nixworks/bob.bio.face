@@ -14,7 +14,6 @@ from .multipie import MultipieBioDatabase
 from .ijba import IJBABioDatabase
 from .xm2vts import XM2VTSBioDatabase
 from .frgc import FRGCBioDatabase
-from .cuhk_cufs import CUHK_CUFSBioDatabase
 from .scface import SCFaceBioDatabase
 
 # gets sphinx autodoc done right - don't remove it
@@ -45,7 +44,6 @@ __appropriate__(
     IJBABioDatabase,
     XM2VTSBioDatabase,
     FRGCBioDatabase,
-    CUHK_CUFSBioDatabase,
     SCFaceBioDatabase,
     )
 __all__ = [_ for _ in dir() if not _.startswith('_')]
