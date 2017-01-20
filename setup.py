@@ -127,6 +127,7 @@ setup(
             'replay-img-spoof  = bob.bio.face.config.database.replay:replay_spoof',
             'replaymobile-img-licit  = bob.bio.face.config.database.replaymobile:replaymobile_licit',
             'replaymobile-img-spoof  = bob.bio.face.config.database.replaymobile:replaymobile_spoof',
+            'casia-webface     = bob.bio.face.config.database.casia_webface:database',
         ],
 
         'bob.bio.preprocessor': [

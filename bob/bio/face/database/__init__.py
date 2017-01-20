@@ -17,6 +17,7 @@ from .frgc import FRGCBioDatabase
 from .cuhk_cufs import CUHK_CUFSBioDatabase
 from .scface import SCFaceBioDatabase
 from .replaymobile import ReplayMobileBioDatabase
+from .casia_webface import CasiaWebFaceBioDatabase
 
 # gets sphinx autodoc done right - don't remove it
 def __appropriate__(*args):
@@ -49,5 +50,6 @@ __appropriate__(
     CUHK_CUFSBioDatabase,
     SCFaceBioDatabase,
     ReplayMobileBioDatabase,
+    CasiaWebFaceBioDatabase,
     )
 __all__ = [_ for _ in dir() if not _.startswith('_')]
