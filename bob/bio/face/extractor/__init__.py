@@ -2,6 +2,8 @@ from .DCTBlocks import DCTBlocks
 from .GridGraph import GridGraph
 from .LGBPHS import LGBPHS
 from .Eigenface import Eigenface
+from bob.btp.Protector import Protector
+from bob.btp.BioHash import BioHash
 
 # gets sphinx autodoc done right - don't remove it
 def __appropriate__(*args):
