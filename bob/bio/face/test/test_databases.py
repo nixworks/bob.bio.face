@@ -357,3 +357,17 @@ def test_msu_mfsd_mod_spoof():
         raise SkipTest(
             "The annotations could not be queried; probably the annotation "
             "files are missing. Here is the error: '%s'" % e)
+            
+            
+@db_available('casia_webface')
+def test_casia_webface():
+    database = bob.bio.base.load_resource(
+        'casia-webface', 'database', preferred_package='bob.bio.face')
+
+    try:
+        #check_database(database, groups=('dev', 'eval'))
+        check_database(database, groups=('world',), protocol='pure_casia')
+    except IOError as e:
+        raise SkipTest(
+            "The database could not be queried; probably the db.sql3 file is missing. Here is the error: '%s'" % e)
+

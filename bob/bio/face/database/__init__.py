@@ -17,6 +17,7 @@ from .frgc import FRGCBioDatabase
 from .scface import SCFaceBioDatabase
 from .replaymobile import ReplayMobileBioDatabase
 from .msu_mfsd_mod import MsuMfsdModBioDatabase
+from .casia_webface import CasiaWebFaceBioDatabase
 
 # gets sphinx autodoc done right - don't remove it
 
@@ -52,5 +53,6 @@ __appropriate__(
   SCFaceBioDatabase,
   ReplayMobileBioDatabase,
   MsuMfsdModBioDatabase,
+  CasiaWebFaceBioDatabase,
 )
 __all__ = [_ for _ in dir() if not _.startswith('_')]

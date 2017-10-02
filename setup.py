@@ -117,6 +117,7 @@ setup(
             'ijba              = bob.bio.face.config.database.ijba:database',
             'lfw-restricted    = bob.bio.face.config.database.lfw_restricted:database',
             'lfw-unrestricted  = bob.bio.face.config.database.lfw_unrestricted:database',
+            'casia-webface     = bob.bio.face.config.database.casia_webface:database',                        
             'mobio-image       = bob.bio.face.config.database.mobio:mobio_image',
             'mobio-male        = bob.bio.face.config.database.mobio:mobio_male',  # MOBIO gender-dependent training
             'mobio-female      = bob.bio.face.config.database.mobio:mobio_female',  # MOBIO gender-dependent training
